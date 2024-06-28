@@ -1,42 +1,14 @@
-header{ 
-    background-color: rgb(51, 116, 49);
-    color: rgb(139, 175, 141); 
+@import url(styles/header.css);
+:root {
+     --cor-de-fundo: hwb(125 61% 26%);
+--branco:#FFFFFF;
+
+
 }
 body{
-    font-family: 'Poppies' sans-serif;
-    background-color: rgb(118, 150, 105);
-    color: rgb(2, 77, 14); 
+    background-color: var(--cor-de-fundo);
 }
-.imagem-cabecalho{
-    width: 40%;
-}
-.cabecalho{
-    background-image: linear-gradient(rgb(116, 199, 144), rgb(165, 228, 165));
-    display: flex;
-}
-.escola-imagem{
-    width: 40%;
-}
-.escola{
-    background-image: linear-gradient(#44cf6785, #94d4a9);
-    display: flex;
-    color: white;
-}
-.escola-conteudo{
-    width: 45%;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-.escola-titulo{
-    padding: 24px 0;
-}
-.estudante-imagem{
-    width: 120px;
-}
+h1
 {
-.estudante-Icone
-width: 20px;
+    background-color: white;
 }
-
-
